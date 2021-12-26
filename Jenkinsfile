@@ -6,27 +6,27 @@ Pipeline {
       }
     }
     
-    stage('Build Code'){
+    stage('Restore'){
       steps{
       }
     }
     
-    stage('Unit Test Code'){
+    stage('Clean'){
       steps{
       }
     }
     
-    stage('Publish Code'){
+    stage('Build code'){
       steps{
       }
     }
     
-    stage('Versioning Artifacts'){
+    stage('Unit Test'){
       steps{
       }
     }
     
-    stage('Uploading steps to Artifact Storage'){
+    stage('Publish'){
       steps{
       }
     }
